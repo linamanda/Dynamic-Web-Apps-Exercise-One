@@ -64,8 +64,9 @@
 }
 
 .ArticleHeaderBlurb {
-  font-size: 16px;
+  font-size: 21px;
   line-height: 1.5;
+  margin-top: 20px;
 }
 
 .ArticleText {
@@ -83,7 +84,8 @@
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .ArticleText h3{
