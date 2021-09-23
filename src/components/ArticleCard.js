@@ -11,7 +11,14 @@ function ArticleCard({ article }) {
             </div>
             <div className="ArticleCardText">
                 <h2 className="ArticleCardTitle">{article.title}</h2>
-                <p className="ArticleCardDate">{dateString}</p>
+                <p
+                    className="ArticleCardDate"
+                    style={{
+                        margin: '0',
+                        marginLeft: '5px',
+                        marginTop: '4px'
+                    }}
+                >{dateString}</p>
                 <p className="ArticleCardBlurb">{article.blurb}</p>
                 <p className="ArticleCardLink">
                     <a href={`/article/${article.id}`}>Read More</a>
